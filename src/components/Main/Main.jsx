@@ -7,7 +7,7 @@ const Main = () => {
     const { onSent, recentPrompt, showResult, loading, resultData, setInput, input } = useContext(Context)
 
     const handleCardClick = async (promptText) => {
-       await onSent(prompText);
+       await onSent(promptText);
     };
 
 
